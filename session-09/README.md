@@ -34,6 +34,9 @@ class C:
 class D(A, B, C):
     def print_x(self):
         print(super(A, self).x)   # Output: 2
+
+ob = D()
+ob.print_x()
 ```
 
 When you call `super(A, self).x`, It returns the` x` attribute of the next class in the method resolution order (MRO) after `A`, which is `B`. Since `B` defines an x attribute with a value of 2, this is the value that gets printed.
