@@ -1,7 +1,7 @@
 # Session 9 Tasks
 ## Task 1
 for the following code
-```
+```python
 class A:
     x = 1
 
@@ -21,7 +21,7 @@ it will print `1`.
 
 How to make it print 2 (from `B`), or 3 (from `C`)
 ### Solution
-```
+```python
 class A:
     x = 1
 
